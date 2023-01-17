@@ -1,9 +1,9 @@
-#Overview
+# Overview
 
 This project fetches likes from a twitter account, converts them to images and uploads to your google photo album. After it runs the first time
 you should be able to select the Twitter Photo Album in the nest hub google photo slideshow config
 
-#Setup
+# Setup
 
 Go to google apis and enable the photo-api and create a new project. You'll need to request offline access so that the app run continuously without requiring you to constantly log into google.
 Place the client id and secret credentials in src/main/resources/photo-api-credentials.json, with json format:
